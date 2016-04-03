@@ -1,4 +1,7 @@
 class User < ActiveRecord::Base
+  
+include Gravtastic
+gravtastic
   has_many :ideas
   has_many :comments
   # Include default devise modules. Others available are:

@@ -15,7 +15,26 @@
  */
 
 
-body { padding-top: 60px; }
+body { padding-top: 100px; }
 footer { margin-top: 100px; }
 table, td, th { vertical-align: middle; border: none; }
-th { border-bottom: 1px solid #DDD; }
+th { border-bottom: 1px solid #E2687D; }
+.navbar {
+  min-height: 38px;
+  background-color: #CDEEF3;
+}
+.navbar a.brand { font-size: 18px; }
+.navbar a.brand:hover {
+  color: #E2687D;
+  background-color: #DE5A8C;
+  text-decoration: none;
+}
+footer {
+  background-color:#44CEF6;
+  padding: 30px 0;
+ 
+}
+body {
+  background-color:#E2FBA8;
+}
+}
